@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|c:\\users\\bangho\\source\\repos\\tpfinal-pwiii\\tpfinal-pwiii.data\\entidades\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|solutionrelative:tpfinal-pwiii.data\\entidades\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|c:\\users\\bangho\\source\\repos\\tpfinal-pwiii\\tpfinal-pwiii.data\\data\\juegodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|solutionrelative:tpfinal-pwiii.data\\data\\juegodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABB40403-0CD7-482D-AB35-0E1E6B67B002}|TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj|c:\\users\\bangho\\source\\repos\\tpfinal-pwiii\\tpfinal-pwiii.logica\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB40403-0CD7-482D-AB35-0E1E6B67B002}|TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj|solutionrelative:tpfinal-pwiii.logica\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 306,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 94,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Partida.cs",
+              "DocumentMoniker": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\Entidades\\Partida.cs",
+              "RelativeDocumentMoniker": "TPFInal-PWIII.Data\\Entidades\\Partida.cs",
+              "ToolTip": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\Entidades\\Partida.cs",
+              "RelativeToolTip": "TPFInal-PWIII.Data\\Entidades\\Partida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T14:39:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\Class1.cs",
+              "RelativeDocumentMoniker": "TPFInal-PWIII.Logica\\Class1.cs",
+              "ToolTip": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\Class1.cs",
+              "RelativeToolTip": "TPFInal-PWIII.Logica\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T14:30:38.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuegoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\Data\\JuegoDbContext.cs",
+              "RelativeDocumentMoniker": "TPFInal-PWIII.Data\\Data\\JuegoDbContext.cs",
+              "ToolTip": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\Data\\JuegoDbContext.cs",
+              "RelativeToolTip": "TPFInal-PWIII.Data\\Data\\JuegoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T14:14:54.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
