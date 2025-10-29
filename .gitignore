@@ -1,0 +1,29 @@
+ # Archivos específicos del sistema operativo
+*.swp
+*.[oa]
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+# Carpeta de configuración de Visual Studio
+.vs/
+
+# Archivos de caché y temporales de herramientas .NET
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Archivos de publicación
+publish/
+
+# Otros archivos comunes a ignorar
+*.log
+*.tmp
+*.bak
+*~
