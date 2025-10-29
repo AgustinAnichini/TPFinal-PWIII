@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj": {}
+    "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj": {
+    "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
         "projectName": "TPFInal-PWIII.Data",
-        "projectPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
-        "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\obj\\",
+        "projectPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
+        "packagesPath": "C:\\Users\\Aprende\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aprende\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj": {
+    "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj",
+        "projectUniqueName": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj",
         "projectName": "TPFInal-PWIII.Logica",
-        "projectPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj",
-        "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Logica\\obj\\",
+        "projectPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Logica\\TPFInal-PWIII.Logica.csproj",
+        "packagesPath": "C:\\Users\\Aprende\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Logica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aprende\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -123,8 +123,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj": {
-                "projectPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj"
+              "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj": {
+                "projectPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj"
               }
             }
           }
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

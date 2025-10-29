@@ -12,3 +12,18 @@ C:\Users\BANGHO\source\repos\TPFInal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\r
 C:\Users\BANGHO\source\repos\TPFInal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.pdb
 C:\Users\BANGHO\source\repos\TPFInal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.genruntimeconfig.cache
 C:\Users\BANGHO\source\repos\TPFInal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\ref\TPFInal-PWIII.Data.dll
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\bin\Debug\net9.0\TPFInal-PWIII.Data.deps.json
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\bin\Debug\net9.0\TPFInal-PWIII.Data.runtimeconfig.json
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\bin\Debug\net9.0\TPFInal-PWIII.Data.dll
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\bin\Debug\net9.0\TPFInal-PWIII.Data.pdb
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.csproj.AssemblyReference.cache
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.AssemblyInfoInputs.cache
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.AssemblyInfo.cs
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.csproj.CoreCompileInputs.cache
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.sourcelink.json
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.dll
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\refint\TPFInal-PWIII.Data.dll
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.pdb
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\TPFInal-PWIII.Data.genruntimeconfig.cache
+C:\Users\Aprende\Desktop\PW3-Proyecto Final\PW3_TPFINAL\TPFinal-PWIII\TPFInal-PWIII.Data\obj\Debug\net9.0\ref\TPFInal-PWIII.Data.dll

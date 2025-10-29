@@ -3818,23 +3818,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BANGHO\\.nuget\\packages\\": {},
+    "C:\\Users\\Aprende\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
       "projectName": "TPFInal-PWIII.Data",
-      "projectPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
-      "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BANGHO\\source\\repos\\TPFInal-PWIII\\TPFInal-PWIII.Data\\obj\\",
+      "projectPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj",
+      "packagesPath": "C:\\Users\\Aprende\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aprende\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3908,7 +3908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
