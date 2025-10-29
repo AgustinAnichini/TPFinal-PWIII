@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPFinal-PWIII_WebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5622b94769c9b3d98c80c8bfbc27749a22f4fcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21acf6c9307bc7b70ab150ac39b3c849e2941d05")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPFinal-PWIII_WebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPFinal-PWIII_WebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

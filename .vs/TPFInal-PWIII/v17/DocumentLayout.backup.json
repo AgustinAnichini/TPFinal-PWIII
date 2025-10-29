@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|c:\\users\\aprende\\desktop\\pw3-proyecto final\\pw3_tpfinal\\tpfinal-pwiii\\tpfinal-pwiii.data\\entidades\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2233E6CD-FFF8-427F-9174-CDD03D199F36}|TPFInal-PWIII.Data\\TPFInal-PWIII.Data.csproj|solutionrelative:tpfinal-pwiii.data\\entidades\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DBC83A9-63BD-49E9-99A8-6A9BE5D24995}|TPFinal-PWIII_WebApplication\\TPFinal-PWIII_WebApplication.csproj|c:\\users\\aprende\\desktop\\pw3-proyecto final\\pw3_tpfinal\\tpfinal-pwiii\\tpfinal-pwiii_webapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5DBC83A9-63BD-49E9-99A8-6A9BE5D24995}|TPFinal-PWIII_WebApplication\\TPFinal-PWIII_WebApplication.csproj|solutionrelative:tpfinal-pwiii_webapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBC83A9-63BD-49E9-99A8-6A9BE5D24995}|TPFinal-PWIII_WebApplication\\TPFinal-PWIII_WebApplication.csproj|c:\\users\\aprende\\desktop\\pw3-proyecto final\\pw3_tpfinal\\tpfinal-pwiii\\tpfinal-pwiii_webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DBC83A9-63BD-49E9-99A8-6A9BE5D24995}|TPFinal-PWIII_WebApplication\\TPFinal-PWIII_WebApplication.csproj|solutionrelative:tpfinal-pwiii_webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 306,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFinal-PWIII_WebApplication\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TPFinal-PWIII_WebApplication\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFinal-PWIII_WebApplication\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TPFinal-PWIII_WebApplication\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-29T00:41:11.908Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -34,15 +51,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jugador.cs",
-              "DocumentMoniker": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\Entidades\\Jugador.cs",
-              "RelativeDocumentMoniker": "TPFInal-PWIII.Data\\Entidades\\Jugador.cs",
-              "ToolTip": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFInal-PWIII.Data\\Entidades\\Jugador.cs",
-              "RelativeToolTip": "TPFInal-PWIII.Data\\Entidades\\Jugador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:38:44.301Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFinal-PWIII_WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TPFinal-PWIII_WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aprende\\Desktop\\PW3-Proyecto Final\\PW3_TPFINAL\\TPFinal-PWIII\\TPFinal-PWIII_WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TPFinal-PWIII_WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T00:38:32.838Z",
               "EditorCaption": ""
             }
           ]
