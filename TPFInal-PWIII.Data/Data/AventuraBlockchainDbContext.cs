@@ -5,13 +5,13 @@ using TPFInal_PWIII.Data.Entidades;
 
 namespace TPFInal_PWIII.Data.Data;
 
-public partial class JuegoDbContext : DbContext
+public partial class AventuraBlockchainDbContext : DbContext
 {
-    public JuegoDbContext()
+    public AventuraBlockchainDbContext()
     {
     }
 
-    public JuegoDbContext(DbContextOptions<JuegoDbContext> options)
+    public AventuraBlockchainDbContext(DbContextOptions<AventuraBlockchainDbContext> options)
         : base(options)
     {
     }
@@ -20,7 +20,7 @@ public partial class JuegoDbContext : DbContext
 
     public virtual DbSet<Jugador> Jugadors { get; set; }
 
-    public virtual DbSet<Partida> Partida { get; set; }
+    public virtual DbSet<Partidum> Partida { get; set; }
 
     public virtual DbSet<Voto> Votos { get; set; }
 
@@ -41,6 +41,9 @@ public partial class JuegoDbContext : DbContext
             entity.Property(e => e.Esfinal)
                 .HasDefaultValue(false)
                 .HasColumnName("esfinal");
+            entity.Property(e => e.Esinicio)
+                .HasDefaultValue(false)
+                .HasColumnName("esinicio");
             entity.Property(e => e.Idopcion1).HasColumnName("idopcion1");
             entity.Property(e => e.Idopcion2).HasColumnName("idopcion2");
             entity.Property(e => e.Opcion1)
@@ -87,7 +90,7 @@ public partial class JuegoDbContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<Partida>(entity =>
+        modelBuilder.Entity<Partidum>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("partida_pkey");
 
@@ -103,9 +106,17 @@ public partial class JuegoDbContext : DbContext
             entity.Property(e => e.Hashprimerbloque)
                 .HasMaxLength(64)
                 .HasColumnName("hashprimerbloque");
+            entity.Property(e => e.Puntoactualid)
+                .HasDefaultValue(1)
+                .HasColumnName("puntoactualid");
             entity.Property(e => e.Titulo)
                 .HasMaxLength(200)
                 .HasColumnName("titulo");
+
+            entity.HasOne(d => d.Puntoactual).WithMany(p => p.Partida)
+                .HasForeignKey(d => d.Puntoactualid)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_partida_puntoactualid");
 
             entity.HasMany(d => d.Idjugadors).WithMany(p => p.Idpartida)
                 .UsingEntity<Dictionary<string, object>>(
@@ -114,7 +125,7 @@ public partial class JuegoDbContext : DbContext
                         .HasForeignKey("Idjugador")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("fk_partidajugador_jugador"),
-                    l => l.HasOne<Partida>().WithMany()
+                    l => l.HasOne<Partidum>().WithMany()
                         .HasForeignKey("Idpartida")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("fk_partidajugador_partida"),

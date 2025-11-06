@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TPFInal-PWIII.Data\TPFInal-PWIII.Data.csproj" />
   </ItemGroup>
 

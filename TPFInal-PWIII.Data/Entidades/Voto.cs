@@ -21,5 +21,5 @@ public partial class Voto
 
     public virtual Jugador IdJugadorNavigation { get; set; } = null!;
 
-    public virtual Partida IdPartidaNavigation { get; set; } = null!;
+    public virtual Partidum IdPartidaNavigation { get; set; } = null!;
 }

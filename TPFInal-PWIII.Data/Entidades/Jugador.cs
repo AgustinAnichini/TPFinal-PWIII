@@ -19,5 +19,5 @@ public partial class Jugador
 
     public virtual ICollection<Voto> Votos { get; set; } = new List<Voto>();
 
-    public virtual ICollection<Partida> Idpartida { get; set; } = new List<Partida>();
+    public virtual ICollection<Partidum> Idpartida { get; set; } = new List<Partidum>();
 }

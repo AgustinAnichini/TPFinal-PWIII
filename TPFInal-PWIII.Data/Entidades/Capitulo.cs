@@ -21,6 +21,8 @@ public partial class Capitulo
 
     public bool Esfinal { get; set; }
 
+    public bool Esinicio { get; set; }
+
     public virtual Capitulo? Idopcion1Navigation { get; set; }
 
     public virtual Capitulo? Idopcion2Navigation { get; set; }
@@ -28,6 +30,8 @@ public partial class Capitulo
     public virtual ICollection<Capitulo> InverseIdopcion1Navigation { get; set; } = new List<Capitulo>();
 
     public virtual ICollection<Capitulo> InverseIdopcion2Navigation { get; set; } = new List<Capitulo>();
+
+    public virtual ICollection<Partidum> Partida { get; set; } = new List<Partidum>();
 
     public virtual ICollection<Voto> Votos { get; set; } = new List<Voto>();
 }
