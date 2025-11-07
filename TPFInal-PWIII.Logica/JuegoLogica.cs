@@ -33,7 +33,7 @@ namespace TPFInal_PWIII.Logica
             _contrato = _web3.Eth.GetContract(abi, contractAddress);
         }
         
-        public async Task<Capitulo> IniciarNuevaAventura()
+        public async Task<Partidum> IniciarNuevaAventura(string idJugadorHost)
         {
             Capitulo primerCapitulo = await obtenerPrimerCapitulo();
             BigInteger idPartidaBlockchain = await registrarPartidaEnBlockChain();
@@ -45,8 +45,18 @@ namespace TPFInal_PWIII.Logica
                 Hashprimerbloque = idPartidaBlockchain.ToString(),
                 Puntoactualid = primerCapitulo.Id
             };
+
+            var jugadorHost = await _context.Jugadors.FindAsync(idJugadorHost);
+            if (jugadorHost == null) throw new Exception("Jugador host no encontrado.");
+
+            nuevaPartida.Idjugadors.Add(jugadorHost);
+
             _context.Partida.Add(nuevaPartida);
-            return primerCapitulo;
+            await _context.SaveChangesAsync();
+
+            _estadoGlobal.ObtenerOIniciarPartida(nuevaPartida.Id, primerCapitulo.Id);
+
+            return nuevaPartida;
         }
 
         private async Task<BigInteger> registrarPartidaEnBlockChain()
@@ -172,7 +182,7 @@ namespace TPFInal_PWIII.Logica
             }
 
             // contar votos 
-            var conteo = await ObtenerConteoVotosSQL(partidaId, capituloActual.Id);
+            var conteo = await ObtenerConteoVotos(partidaId, capituloActual.Id);
             int votosA = conteo["Opcion1"];
             int votosB = conteo["Opcion2"];
 
@@ -217,7 +227,7 @@ namespace TPFInal_PWIII.Logica
             return await _context.Capitulos.FindAsync(proximoIdReal);
         }
 
-        private async Task<Dictionary<string, int>> ObtenerConteoVotosSQL(int partidaId, int capituloId)
+        public async Task<Dictionary<string, int>> ObtenerConteoVotos(int partidaId, int capituloId)
         {
             var votosA = await _context.Votos.CountAsync(v =>
                 v.IdPartida == partidaId &&
@@ -261,10 +271,5 @@ namespace TPFInal_PWIII.Logica
             return desempate;
         }
 
-        public Task<Capitulo> ObtenerSiguienteCapitulo(int idOpcionElegida)
-        {
-            // Devuelve el primer capitulo de la nuevaAventura
-            throw new NotImplementedException();
-        }
     }
 }
