@@ -25,13 +25,14 @@ Web3 web3Instance = new Web3(backendAccount, nodeUrl);
 builder.Services.AddSingleton<IWeb3>(web3Instance);
 
 
-builder.Services.AddSingleton<JuegoLogica>();
-builder.Services.AddSingleton<HistoriaLogica>();
-builder.Services.AddSingleton<UsuarioLogica>();
+builder.Services.AddScoped<JuegoLogica>();
+builder.Services.AddScoped<HistoriaLogica>();
+builder.Services.AddScoped<UsuarioLogica>();
+builder.Services.AddSingleton<EstadoGlobal>();
 
-builder.Services.AddSingleton<ILogicaDeJuego,JuegoLogica>();
-builder.Services.AddSingleton<ILogicaHistorial,HistoriaLogica>();
-builder.Services.AddSingleton<ILogicaJugador,UsuarioLogica>();
+builder.Services.AddScoped<ILogicaDeJuego,JuegoLogica>();
+builder.Services.AddScoped<ILogicaHistorial,HistoriaLogica>();
+builder.Services.AddScoped<ILogicaJugador,UsuarioLogica>();
 
 
 var app = builder.Build();
